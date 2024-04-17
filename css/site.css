@@ -31,11 +31,17 @@ background:white;
     text-align:center;
 }
 
+#projetos{
+    text-align:center;
+}
+
 .portifolio{
+    text-align:center;
     width:100%;
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
+    justify-content:center;
 }
 
 .portifolioItem{
@@ -44,11 +50,26 @@ background:white;
     margin:10px;
 }
 
+.portifolioItem img{
+    width:500px;
+    height:250px;
+}
+
 .portifolioItem h3{
     margin-top:5px;
     margin-bottom:5px;
 }
 
-/* @media (min-width:1200px){
+@media (max-width:500px){
+    .portifolioItem{
+        width:350px;
+        height:500px;
+        margin:10px;
+    }
 
-} */
+    .portifolioItem img{
+        width:300px;
+        height:250px;
+    }
+
+}
