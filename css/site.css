@@ -1,0 +1,54 @@
+.navegacao{
+    background:black;
+}
+
+.navegacao li a{
+    color:white;
+}
+
+.lead{
+    width:100%;
+    margin:10px;
+}
+
+.navegacao button{
+    background:white;
+}
+
+.navegacao button span{
+    color:black;
+}
+
+.mainBody{
+background:white;
+}
+
+#sobre{
+    margin-top:30px;
+}
+
+#sobre{
+    text-align:center;
+}
+
+.portifolio{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.portifolioItem{
+    width:500px;
+    height:500px;
+    margin:10px;
+}
+
+.portifolioItem h3{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/* @media (min-width:1200px){
+
+} */
